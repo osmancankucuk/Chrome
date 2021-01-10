@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open sans", "sans serif";
+}
+#navbar {
+  height: 110px;
+  margin-left: 0;
+
+  border-bottom: 1px solid rgb(236, 230, 230);
+}
+.icongoogle {
+  margin-left: 0.9rem;
+}
+.searchbox input {
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 1rem;
+
+  outline: none;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.searchbox input:hover,
+.searchbox input:focus {
+  opacity: 0.8;
+  box-shadow: 0 0 5px rgba(99, 97, 97, 0.589);
+}
+header {
+  margin: 18px 0 0 18px;
+}
+.logo {
+  float: left;
+  display: flex;
+  padding: 10px;
+}
+.searchbox {
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 0 0 0 35px;
+}
+.search-icons {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+}
+
+.search-icons li {
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+.searchbox img {
+  position: absolute;
+  left: 30rem;
+  border-radius: 10rem;
+}
+.searchbox li a i {
+  color: rgb(66, 133, 244);
+  padding-right: 5px;
+}
+.searchbottom {
+  margin: 0 9rem;
+}
+.searchbottom li {
+  float: left;
+  list-style-type: none;
+  margin: 0 1%;
+  padding-bottom: 1.1rem;
+
+  color: rgb(122, 122, 122);
+}
+.searchbottom li:hover,
+.searchbottom li:focus {
+  color: rgb(66, 133, 244);
+  border-bottom: 3px solid rgb(66, 133, 244);
+  margin-bottom: 10px;
+}
+
+.searchbottom li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(85, 83, 83);
+  font-size: 0.9em;
+  margin: 0 5px;
+}
+.searchbottom li a:focus {
+  color: rgb(66, 133, 244);
+}
+.searchbottom li a i {
+  color: rgb(73, 71, 71);
+  margin-right: 0.3rem;
+  opacity: 0.8;
+}
+.searchbottom li a i:active {
+  color: rgb(66, 133, 244);
+}
+#home {
+  height: 100rem;
+  width: 74rem;
+
+  margin-left: 10.8rem;
+  margin-top: 1rem;
+}
+.result {
+  padding-bottom: 1em;
+}
+.result p {
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.side {
+  float: right;
+  height: 80rem;
+
+  width: 29rem;
+  margin-right: 9px;
+  border: 1px solid rgb(224, 221, 221);
+  border-radius: 0.5rem;
+}
+.side a {
+  text-decoration: none;
+}
+.side h1,
+.side p {
+  padding-left: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 1.2rem;
+}

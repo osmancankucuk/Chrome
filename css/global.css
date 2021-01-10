@@ -1,0 +1,36 @@
+.pictures img {
+  float: left;
+  border-top-left-radius: 5px;
+  margin-bottom: 1rem;
+}
+.location img {
+  margin-bottom: 1rem;
+  float: right;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.sidetextI {
+  border-bottom: 1px solid rgb(224, 221, 221);
+  margin-bottom: 1rem;
+}
+.sidetextI h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.sidetextI p {
+  color: #70757a;
+  font-family: Arial, sans-serif;
+}
+
+.sidetextII p {
+  line-height: 1.58;
+  color: #4d5156;
+  font-size: 14.5px;
+}
+.sidetextIII {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+.sidetextIII a {
+  color: black;
+}
